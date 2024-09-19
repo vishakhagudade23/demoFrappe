@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-19 16:41:34.922529",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "items",
+  "section_break_msnq",
+  "total_amount",
+  "payable_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Invoice Item"
+  },
+  {
+   "fieldname": "section_break_msnq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Int",
+   "label": "Total Amount"
+  },
+  {
+   "fieldname": "payable_amount",
+   "fieldtype": "Int",
+   "label": "Payable Amount"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-19 16:42:52.706939",
+ "modified_by": "Administrator",
+ "module": "Demoapp",
+ "name": "Expense Invoice",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
